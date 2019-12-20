@@ -6,7 +6,7 @@
 .login_registration{
 	height:100%;
 	width:100%;
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://github.com/Creator54/project/blob/master/background.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(background.jpg);
 	background-position:center;
 	background-position:cover;
 	background-size:cover;
