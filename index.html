@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Login and Registration Form</title>
+
 	<link rel="stylesheet" type="text/css" href="index_style.css">
 </head>
 <body>
@@ -14,10 +15,12 @@
 		</div>
 		<div>
 			<form id="login" class="input-group">
-			<input type="text" class="input-field" placeholder="User Id" required>
-			<input type="text" class="input-field" placeholder="Enter Password" required>
+
+			<input type="text" class="input-field" placeholder="User Id" id="myInput" required>
+
+			<input type="text" class="input-field" placeholder="Enter Password" id="getpass"required>
 			<input type="checkbox" class="check-box"><span>Remember Password</span>
-			<button type="submit" class="submit-btn">Log In</button>
+			<button type="submit" class="submit-btn" onclick="getInputValue();">Log In</button>
 		</form>
 		<form id="register" class="input-group">
           <center>
@@ -34,7 +37,7 @@
           <input type="password" class="input-field" placeholder="Password :">
 	      <input type="password" class="input-field" placeholder="Confirm Password :">
 		  <input type="checkbox" class="check-box"><span>I agree to the terms and conditions.</span>
-		  <button type="submit" class="submit-btn">Register</button>
+		  <button type="submit" class="submit-btn" onclick="">Register</button>
 		</form>
 		</div>
 	</div>
@@ -42,6 +45,18 @@
 		var x= document.getElementById("login");
 		var y= document.getElementById("register");
 		var z= document.getElementById("btn");
+
+		function getInputValue(){
+			var  id = "Saroj";
+			var pass = "1234";
+			var inputid = document.getElementById("myInput").value;
+			var inputpass = document.getElementById("getpass").value;
+            // Displaying the value
+            if(id == inputid && inputpass == pass){
+            		alert("jhfgdh");
+            }
+
+		}
 
 		function register(){
 			x.style.left = "-400px";
