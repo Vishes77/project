@@ -6,22 +6,12 @@
 .login_registration{
 	height:100%;
 	width:100%;
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(background.jpg);
 	background-position:center;
 	background-position:cover;
 	background-size:cover;
 	position:absolute;
 }
 
-#heading{
-	padding: 30px;
-	padding-left: 200px;
-	padding-right: 200px;
-	margin-left: 50px;
-}
-#Add_remo{
-	align-content: center;
-}
 
 
 .form-box{
