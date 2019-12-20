@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body>
+	<div class="login_registration">
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Login</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+		</div>
+		<div>
+			<form id="login" class="input-group">
+			<input type="text" class="input-field" placeholder="User Id" required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="check-box"><span>Remember Password</span>
+			<button type="submit" class="submit-btn">Log In</button>
+		</form>
+		<form id="register" class="input-group">
+          <center>
+	 	  Buyer
+	 	  <input type="radio" name="type" value="buyer">
+	  	  Seller    
+          	<input type="radio" name="type" value="seller">
+  	  	  <br>
+	      </center>
+			<input type="text" class="input-field" placeholder="Your Full Name">
+          <input type="text" class="input-field" placeholder="District">
+	      <input type="number" class="input-field" placeholder="Pin Code :">
+          <input type="text" class="input-field" placeholder="Phone(+91) :">
+          <input type="password" class="input-field" placeholder="Password :">
+	      <input type="password" class="input-field" placeholder="Confirm Password :">
+		  <input type="checkbox" class="check-box"><span>I agree to the terms and conditions.</span>
+		  <button type="submit" class="submit-btn">Register</button>
+		</form>
+		</div>
+	</div>
+	<script>
+		var x= document.getElementById("login");
+		var y= document.getElementById("register");
+		var z= document.getElementById("btn");
+
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+		}
+		function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0px";
+		}
+
+	</script>
+</body>
+</html>
+
+<div class="bottom_navbar">
+      <a href="https://github.com/Creator54/project">Want to contribute in the project ?
+      <br> ©Farmer's Portal
+      </a>
+</div>
