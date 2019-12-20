@@ -13,6 +13,17 @@
 	position:absolute;
 }
 
+#heading{
+	padding: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-left: 50px;
+}
+#Add_remo{
+	align-content: center;
+}
+
+
 .form-box{
 	width:380px;
 	height:640px;
